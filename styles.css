@@ -92,10 +92,10 @@ a {
   left: 42%;
   border: 2px solid white;
 }
-.team{
-right: 42%;
- position: relative;
- font-weight: bolder;
+.team {
+  right: 42%;
+  position: relative;
+  font-weight: bolder;
 }
 .part3 {
   background-image: url("./background1.png");
@@ -118,7 +118,7 @@ right: 42%;
   font-weight: bolder;
   padding-top: 20%;
   color: white;
-  right: 50% ;
+  right: 50%;
 }
 .part4 {
   background-color: white;
@@ -129,75 +129,100 @@ right: 42%;
   overflow: hidden;
 }
 
-.img3{
-  left: 50%; 
+.img3 {
+  margin-right: 10%;
 }
-.aboutusimg4{
+.aboutusimg4 {
   width: 475px;
   height: 475px;
 }
+<<<<<<< HEAD
 .about-cadre4
 {width: 200px;
 height: 200px;
 position: relative;
 top: -50vh;
 left: 15px;
+=======
+.formgrid {
+  /* margin-left: 10%; */
+  display: flex;
+  flex-wrap: wrap;
 }
-.title3
-{
+input {
+  margin-left: 5%;
+  margin-top: 5%;
+  border-radius: 2px;
+  height: 27px;
+  background-color: #d3d3d3;
+  width: 20vw;
+  border: 0px;
+  padding: 10px;
+}
+select {
+  margin-left: 5%;
+  margin-top: 5%;
+  border-radius: 2px;
+  height: 47px;
+  background-color: #d3d3d3;
+  width: 22vw;
+}
+.about-cadre4 {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: -50vh;
+  left: 15px;
+>>>>>>> d7d6e4be57475adca0e473dc5f3354122b03925c
+}
+.title3 {
   color: black;
   margin-left: 60%;
   margin: 2%;
   margin-top: 0%;
-  
 }
-.ligne{
+.ligne {
   margin: 5%;
   margin-top: 0%;
   margin-left: 35%;
 }
-.form{
+/* .form {
   margin: 10px;
   width: 500px;
   padding: 1em;
   flex: auto;
   margin-right: 20%;
   margin-top: 1%;
-  background-color:#FAFAFA;
-  
-  
-}
-.button2{
-  background-color:yellow; 
-  columns: yellow;
+  background-color: #fafafa;
+} */
+.button2 {
+  background-color: rgb(252, 223, 59);
   text-decoration: none;
-    font-weight: bold;
-    padding: 10px 40px;
-   width: 500px;
+  font-weight: bold;
+  padding: 10px 40px;
+  width: 500px;
   height: 50px;
-  margin-left: 2%;
-  }
-  .contenue{
-    width: 300px;
-margin-right: 15%;
-  margin-top: 1%;
- flex: auto;
- border: 0ch;
- background-color: rgba(255, 255, 240, 0.041);
- 
-  }
-    .form2{
-      width: 400px;
-      padding: 1em;
+  margin-left: 10%;
+  margin-top: 2%;
+  border: 0px;
+}
+.contenue {
+  width: 300px;
   margin-right: 15%;
-    margin-top: 1%;
+  margin-top: 1%;
   flex: auto;
   border: 0ch;
- background-color: rgba(255, 255, 240, 0.041);
- 
-
+  background-color: rgba(255, 255, 240, 0.041);
 }
-  
+.form2 {
+  width: 400px;
+  padding: 1em;
+  margin-right: 15%;
+  margin-top: 1%;
+  flex: auto;
+  border: 0ch;
+  background-color: rgba(255, 255, 240, 0.041);
+}
 
 @media screen and (max-width: 760px) {
   .nav-img {
@@ -258,9 +283,10 @@ margin-right: 15%;
     padding-top: 30%;
     width: 100vw;
     margin-left: 5%;
+  }
+  .title2 {
+    margin-top: -90%;
+    margin-left: 36%;
+    color: white;
+  }
 }
-.title2 {
-  margin-top: -90%;
-  margin-left: 36%;
-  color: white;
-}}
