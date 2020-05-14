@@ -136,14 +136,6 @@ a {
   width: 475px;
   height: 475px;
 }
-<<<<<<< HEAD
-.about-cadre4
-{width: 200px;
-height: 200px;
-position: relative;
-top: -50vh;
-left: 15px;
-=======
 .formgrid {
   /* margin-left: 10%; */
   display: flex;
@@ -173,7 +165,6 @@ select {
   position: relative;
   top: -50vh;
   left: 15px;
->>>>>>> d7d6e4be57475adca0e473dc5f3354122b03925c
 }
 .title3 {
   color: black;
@@ -223,7 +214,33 @@ select {
   border: 0ch;
   background-color: rgba(255, 255, 240, 0.041);
 }
-
+.img5
+{
+  margin-left: 5%;
+}
+.about-cadre5 {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  top: -20vh;
+  right: 2px;
+}
+.aboutusimg4 {
+  width: 475px;
+  height: 475px;
+  top: -10vh;
+}
+.title5{
+  color: white;
+  margin-right: 60%;
+  margin: 2%;
+  margin-top: 0%;
+}
+.ligne5{
+  margin: 5%;
+  margin-top: 0%;
+  margin-right: 35%;
+}
 @media screen and (max-width: 760px) {
   .nav-img {
     width: 50px;
