@@ -256,19 +256,18 @@ select {
   margin-top: 5%;
   font-weight: bolder;
 }
-
-}
 .ligne5{
   height: 1vh;
-  margin-top: -20%;
+  margin-top: -5%;
   margin-left: 5%;
+  width: 80%;
 }
 .text1{
   padding-top: -80vh;
   margin-left: 4%;
   font-weight: bolder;
   color: aliceblue;
-}
+font-style: italic;}
 .part6{
   background-color: white;
   margin-top: 30%;
