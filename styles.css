@@ -122,15 +122,17 @@ a {
 }
 .part4 {
   background-color: white;
-  max-height: 80vh;
+  max-height: 100vh;
   display: flex;
   padding-top: 10%;
   max-width: 100vw;
   overflow: hidden;
+  
 }
 
 .img3 {
   margin-right: 10%;
+  margin-top: -5%;
 }
 .aboutusimg4 {
   width: 475px;
@@ -170,7 +172,7 @@ select {
   color: black;
   margin-left: 60%;
   margin: 2%;
-  margin-top: 0%;
+  margin-top: -5vh;
 }
 .ligne {
   margin: 5%;
@@ -214,16 +216,34 @@ select {
   border: 0ch;
   background-color: rgba(255, 255, 240, 0.041);
 }
+/*.part5{
+  margin-top: 30vh;
+}*/
+.carousel {
+  margin-top: -30%;
+  position: absolute;  z-index: 2;
+  max-width: height 10px;
+}
+.block{
+ position: relative;
+   z-index: 3;
+  margin-left: 60%;
+  margin-top: 30vw;
+}
 .img5
-{
-  margin-left: 5%;
+{ 
+  margin-left: 10%;
+  position: absolute;
+   z-index: 4;
+   margin-top: 20%;
+  
 }
 .about-cadre5 {
   width: 250px;
   height: 250px;
   position: relative;
-  top: -20vh;
-  right: 2px;
+  top: -10vh;
+  left: -7em;
 }
 .aboutusimg4 {
   width: 475px;
@@ -232,15 +252,52 @@ select {
 }
 .title5{
   color: white;
-  margin-right: 60%;
-  margin: 2%;
-  margin-top: 0%;
+  margin-left: 10%;
+  margin-top: 5%;
+  font-weight: bolder;
+}
+
 }
 .ligne5{
-  margin: 5%;
-  margin-top: 0%;
-  margin-right: 35%;
+  height: 1vh;
+  margin-top: -20%;
+  margin-left: 5%;
 }
+.text1{
+  padding-top: -80vh;
+  margin-left: 4%;
+  font-weight: bolder;
+  color: aliceblue;
+}
+.part6{
+  background-color: white;
+  margin-top: 30%;
+  max-height: 100vh;
+
+}
+.title6{
+  font-weight: bolder;
+  margin-right: auto;
+  margin-left: auto;
+  color: black;
+  text-align: center;
+}
+.ligne6{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%; 
+  height: 1vh;
+  
+}
+.text3{
+  color: black;
+  font-weight: bolder;
+  padding-top: -70vh;
+  vertical-align: middle;
+  margin-left: 2%;
+  text-align: center
+}
+
 @media screen and (max-width: 760px) {
   .nav-img {
     width: 50px;
